@@ -24,7 +24,6 @@ private:
     wxButton *btnOk;
     wxButton *btnCancel;
     DECLARE_EVENT_TABLE()
-
 };
 
 #endif // PARAMETRES_H_INCLUDED
