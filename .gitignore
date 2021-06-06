@@ -1,0 +1,8 @@
+.idea
+cmake-build-debug
+cmake-build-release
+*.cbp
+bin
+obj
+*.depend
+*.layout

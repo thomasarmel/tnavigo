@@ -136,11 +136,11 @@ void Tab::URLChangee(wxWebViewEvent &event)
     int indexTab=m_auiNotebookParent->GetPageIndex(this);
     if(event.GetURL().Left(8) == "https://")
     {
-        m_auiNotebookParent->SetPageBitmap(indexTab, wxBitmap("icon-https.png"));
+        m_auiNotebookParent->SetPageBitmap(indexTab, wxBitmap("icon-https.png", wxBITMAP_TYPE_PNG));
     }
     else if(event.GetURL().Left(7) == "http://")
     {
-        m_auiNotebookParent->SetPageBitmap(indexTab, wxBitmap("icon-http.png"));
+        m_auiNotebookParent->SetPageBitmap(indexTab, wxBitmap("icon-http.png", wxBITMAP_TYPE_PNG));
     }
     else
     {

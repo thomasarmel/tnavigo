@@ -56,6 +56,12 @@ MainFrame::MainFrame(const wxString& title) : wxFrame(NULL, wxID_ANY, title, wxD
 
 MainFrame::~MainFrame()
 {
+    delete tabManager;
+    delete menuBar;
+    delete menuFile;
+    delete menuNav;
+    delete menuOptions;
+    delete dialogueEnregistrer;
 }
 
 void MainFrame::fNewTab(wxCommandEvent &event)
