@@ -68,7 +68,8 @@ Tab::Tab(wxWindow *parent, wxString URL) : wxWindow(parent, wxID_ANY)
 }
 
 Tab::~Tab()
-{}
+{
+}
 
 void Tab::Go(wxCommandEvent &event)
 {
